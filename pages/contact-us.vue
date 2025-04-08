@@ -6,7 +6,7 @@
         <main>
             <!-- BREADCRUMB SECTION START -->
             <section
-                class="pt-[327px] xl:pt-[287px] lg:pt-[237px] sm:pt-[200px] xxs:pt-[180px] pb-[158px] xl:pb-[118px] lg:pb-[98px] sm:pb-[68px] xs:pb-[48px] text-center bg-[url('https://img.freepik.com/free-photo/person-office-work-day_23-2150690165.jpg?t=st=1741777632~exp=1741781232~hmac=d658d48a260c1c943350bcd4100f093e83c26c781c980ee48430fc1e2c341f1b&w=1800')] bg-no-repeat bg-cover bg-center relative z-[1] overflow-hidden before:absolute before:-z-[1] before:inset-0 before:bg-edblue/70 before:pointer-events-none">
+                class="pt-[327px] xl:pt-[287px] lg:pt-[237px] sm:pt-[200px] xxs:pt-[180px] pb-[158px] xl:pb-[118px] lg:pb-[98px] sm:pb-[68px] xs:pb-[48px] text-center bg-[url('https://img.freepik.com/free-photo/person-office-work-day_23-2150690165.jpg?t=st=1744033896~exp=1744037496~hmac=8c8f290eaf1640fee06f042c71f422d8ea68fb0a8051a6b5c10335e5bffe3bff&w=1380')] bg-no-repeat bg-cover bg-center relative z-[1] overflow-hidden before:absolute before:-z-[1] before:inset-0 before:bg-edblue/70 before:pointer-events-none">
                 <div class="mx-[19.71%] xxxl:mx-[14.71%] xxl:mx-[9.71%] xl:mx-[5.71%] md:mx-[12px]">
                     <h1 class="font-semibold text-[clamp(35px,6vw,56px)] text-white">Contact us</h1>
                     <ul class="flex items-center justify-center gap-[10px] text-white">
@@ -139,12 +139,14 @@
             <!-- CONTACT SECTION END -->
 
             <!-- Google Map -->
-            <div class="relative w-full h-96">
+            <div class="relative w-full h-[75vh]">
                 <iframe class="absolute top-0 left-0 w-full h-full"
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12080.73732861526!2d-74.0059418!3d40.7127847!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM40zMDA2JzEwLjAiTiA3NMKwMjUnMzcuNyJX!5e0!3m2!1sen!2sus!4v1648482801994!5m2!1sen!2sus"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3988.7846117863414!2d36.891838!3d-1.304276!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f13c81cf67667%3A0x48029dfe9642ad02!2sMeco%20Art%20Commercial%20Kitchen!5e0!3m2!1sen!2ske!4v1744033672526!5m2!1sen!2sk"
                     frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
                 </iframe>
             </div>
+
+
             <!-- Google Map -->
         </main>
     </div>

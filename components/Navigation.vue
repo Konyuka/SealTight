@@ -120,18 +120,21 @@
                     <div class=" h-24 w-24">
                         <img src="/assets/img/Logo4.png" alt="logo" class="object-contain w-full h-full">
                     </div>
-<!-- 
+                    <!-- 
                     <div class="inline-block">
                         <span
                             class="font-lato bg-gradient-to-r from-orange-500 via-black to-red-500 text-transparent bg-clip-text font-extrabold text-3xl">
                             Seal Tight LPG Solutions
                         </span>
                     </div> -->
+
+
                 </NuxtLink>
             </div>
 
             <div class="flex lg:items-center lg:gap-[30px]">
                 <div class="flex lg:flex-col items-center gap-[60px] xxl:gap-[25px] xl:gap-[30px] md:gap-y-[15px]">
+
                     <!-- search form -->
                     <form action="#"
                         class="to-go-to-sidebar-in-mobile max-w-[455px] xxl:max-w-[395px] lg:max-w-[95%] lg:mx-auto border border-white/20 lg:border-black/20 rounded-[6px] overflow-hidden h-[60px] flex xl:hidden lg:flex lg:my-[10px]">
@@ -149,56 +152,68 @@
                                 class="fa-solid fa-magnifying-glass"></i></button>
                     </form>
 
-                    <!-- nav -->
-                    <ul
-                        class="to-go-to-sidebar-in-mobile ed-header-nav flex lg:flex-col gap-x-[43px] xxl:gap-x-[33px] font-kanit text-[17px] !font-extrabold !text-2xl">
+                    <div class="flex flex-col">
+                        <Name />
 
-                        <li class="">
-                            <NuxtLink href="/">Home</NuxtLink>
-                        </li>
+                        <div class="flex ">
+                            <!-- nav -->
+                            <ul
+                                class="to-go-to-sidebar-in-mobile ed-header-nav flex lg:flex-col gap-x-[43px] xxl:gap-x-[33px] font-kanit text-[17px] !font-extrabold !text-2xl">
 
-                        <!-- <li class="has-sub-menu relative">
-                            <NuxtLink role="button">Services</NuxtLink>
+                                <li class="">
+                                    <NuxtLink href="/">Home</NuxtLink>
+                                </li>
 
-                            <ul class="ed-header-submenu">
-                                <li><NuxtLink href="our-services">Courses Grid</NuxtLink></li>
+                                <!-- <li class="has-sub-menu relative">
+                                    <NuxtLink role="button">Services</NuxtLink>
+        
+                                    <ul class="ed-header-submenu">
+                                        <li><NuxtLink href="our-services">Courses Grid</NuxtLink></li>
+                                    </ul>
+                                </li> -->
+
+                                <li>
+                                    <NuxtLink href="our-services">Services</NuxtLink>
+                                </li>
+                                <li>
+                                    <NuxtLink href="about-us">About us</NuxtLink>
+                                </li>
                             </ul>
-                        </li> -->
+                            <!-- CTA -->
+                            <div class="flex items-center gap-x-[60px] xxl:gap-x-[25px] lg:gap-x-[20px]">
+                                <button class="ed-cart-opener-btn group">
+                                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g>
+                                            <path
+                                                d="M12.9894 13.6354H6.93871C6.06616 13.6354 5.2925 13.0682 5.05637 12.2557L3.01122 5.38995C2.93856 5.14134 2.69705 4.97072 2.42122 4.97072H0.818742C0.446713 4.97072 0.145996 4.67212 0.145996 4.30421C0.145996 3.93629 0.446713 3.6377 0.818742 3.6377H2.42122C3.29377 3.6377 4.06676 4.2049 4.30289 5.01737L4.68568 6.30374H14.9753C15.3951 6.30374 15.7934 6.50169 16.0403 6.83361C16.2852 7.16287 16.3558 7.57477 16.234 7.96402L14.8462 12.3283C14.5744 13.1161 13.8296 13.6354 12.9894 13.6354Z"
+                                                class="fill-white group-hover:fill-black" />
+                                            <path
+                                                d="M7.54617 16.9687C6.80414 16.9687 6.20068 16.3707 6.20068 15.6353C6.20068 14.9 6.80414 14.302 7.54617 14.302C8.28821 14.302 8.89167 14.9 8.89167 15.6353C8.89167 16.3707 8.28821 16.9687 7.54617 16.9687Z"
+                                                class="fill-white group-hover:fill-black" />
+                                            <path
+                                                d="M12.2556 16.9687C11.5136 16.9687 10.9102 16.3707 10.9102 15.6353C10.9102 14.9 11.5136 14.302 12.2556 14.302C12.9977 14.302 13.6011 14.9 13.6011 15.6353C13.6011 16.3707 12.9977 16.9687 12.2556 16.9687Z"
+                                                class="fill-white group-hover:fill-black" />
+                                        </g>
+                                    </svg>
+                                </button>
+                                <NuxtLink href="contact-us" class="ed-btn to-go-to-sidebar-in-mobile lg:m-[20px]">
+                                    Contact Us
+                                </NuxtLink>
+                            </div>
+                        </div>
+                    </div>
 
-                        <li>
-                            <NuxtLink href="our-services">Services</NuxtLink>
-                        </li>
-                        <li>
-                            <NuxtLink href="contact-us">Contact us</NuxtLink>
-                        </li>
-                    </ul>
 
-                    <!-- right actions -->
-                    <!-- <div class="flex items-center gap-x-[60px] xxl:gap-x-[25px] lg:gap-x-[20px]">
-                        <button class="ed-cart-opener-btn group">
-                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <g>
-                                    <path
-                                        d="M12.9894 13.6354H6.93871C6.06616 13.6354 5.2925 13.0682 5.05637 12.2557L3.01122 5.38995C2.93856 5.14134 2.69705 4.97072 2.42122 4.97072H0.818742C0.446713 4.97072 0.145996 4.67212 0.145996 4.30421C0.145996 3.93629 0.446713 3.6377 0.818742 3.6377H2.42122C3.29377 3.6377 4.06676 4.2049 4.30289 5.01737L4.68568 6.30374H14.9753C15.3951 6.30374 15.7934 6.50169 16.0403 6.83361C16.2852 7.16287 16.3558 7.57477 16.234 7.96402L14.8462 12.3283C14.5744 13.1161 13.8296 13.6354 12.9894 13.6354Z"
-                                        class="fill-white group-hover:fill-edyellow" />
-                                    <path
-                                        d="M7.54617 16.9687C6.80414 16.9687 6.20068 16.3707 6.20068 15.6353C6.20068 14.9 6.80414 14.302 7.54617 14.302C8.28821 14.302 8.89167 14.9 8.89167 15.6353C8.89167 16.3707 8.28821 16.9687 7.54617 16.9687Z"
-                                        class="fill-white group-hover:fill-edyellow" />
-                                    <path
-                                        d="M12.2556 16.9687C11.5136 16.9687 10.9102 16.3707 10.9102 15.6353C10.9102 14.9 11.5136 14.302 12.2556 14.302C12.9977 14.302 13.6011 14.9 13.6011 15.6353C13.6011 16.3707 12.9977 16.9687 12.2556 16.9687Z"
-                                        class="fill-white group-hover:fill-edyellow" />
-                                </g>
-                            </svg>
-                        </button>
-                        <NuxtLink href="contact.html" class="ed-btn to-go-to-sidebar-in-mobile lg:m-[20px]">apply now</NuxtLink>
-                    </div> -->
+
+
                 </div>
 
                 <!-- mobile menu button -->
                 <button type="button"
-                    class="ed-mobile-menu-open-btn hidden lg:inline-block text-white text-[18px] hover:text-edyellow"><i
-                        class="fa-solid fa-bars"></i></button>
+                    class="ed-mobile-menu-open-btn hidden lg:inline-block text-white text-[18px] hover:text-edyellow">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
             </div>
         </header>
         <!-- HEADER SECTION END -->

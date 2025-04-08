@@ -116,11 +116,12 @@
 
                 <!-- footer bottom -->
                 <div class="flex flex-wrap items-center justify-between gap-[15px] pt-[20px] pb-[50px] text-[#d9d9d9]">
-                    <p>&copy; All Copyright 2024 by Edutics</p>
+                    <p>&copy; All Copyright {{ currentYear }} | Seal Tight LTD</p>
 
                     <div class="flex flex-wrap gap-[40px] xxs:gap-[15px]">
-                        <a href="#" class="hover:text-edyellow">Terms & Conditions</a>
-                        <a href="#" class="hover:text-edyellow">Privacy Policy</a>
+                        <a href="mailto:michaelsaiba84@gmail.com" class="hover:text-edyellow underline underline-offset-8">
+                            Designed by <span class="">Michael Saiba</span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -128,3 +129,10 @@
         <!-- FOOTER SECTION END -->
     </div>
 </template>
+
+<script setup>
+const currentYear = computed(() => {
+    const currentDate = new Date();
+    return currentDate.getFullYear();
+})
+</script>
