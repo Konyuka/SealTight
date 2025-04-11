@@ -27,381 +27,110 @@
             <!-- BREADCRUMB SECTION END -->
 
 
-            <!-- COURSE GRID SECTION START -->
             <div class="py-[120px] xl:py-[80px] md:py-[60px]">
                 <div class="mx-[19.71%] xxxl:mx-[14.71%] xxl:mx-[9.71%] xl:mx-[5.71%] md:mx-[12px]">
                     <div class="grid grid-cols-3 md:grid-cols-2 xxs:grid-cols-1 gap-[30px] lg:gap-[20px]">
-                        <!-- single course card -->
                         <div
-                            class="ed-2-single-course mix personal-skill border border-[#e5e5e5] rounded-[10px] p-[20px] group">
-                            <!-- course image  -->
-                            <div class="relative overflow-hidden rounded-[10px] mb-[24px]">
-                                <img src="/assets/img/course-1.jpg" alt="Course Image"
-                                    class="aspect-[330/223] w-full object-cover group-hover:scale-110">
-                                <span
-                                    class="absolute bg-edyellow px-[10px] h-[33px] flex gap-[8px] items-center top-[16px] left-[16px] rounded-[6px]">
-                                    <span class="icon"><img src="/assets/img/icon/clock.svg" alt="icon"></span>
-                                    <span class="txt">8h 30m</span>
-                                </span>
+                            class="border border-[#e5e5e5] rounded-[10px] p-[30px] group hover:shadow-lg transition-shadow duration-300">
+                            <div class="mb-[20px]">
+                                <img src="https://via.placeholder.com/80x80" alt="LPG Cylinder Refills"
+                                    class="w-[80px] h-[80px] object-contain">
                             </div>
-
-                            <!-- course infos -->
-                            <div class="flex justify-between items-center mb-[16px]">
-                                <span
-                                    class="inline-flex items-center justify-center border border-[#e5e5e5] px-[10px] h-[33px] rounded-[6px] font-medium text-[#808080] text-[14px]">Expert</span>
-                                <span class="text-edpurple font-semibold text-[20px]">$59.00</span>
-                            </div>
-
-                            <!-- course title -->
-                            <h5 class="font-semibold text-[20px] text-edblue mb-[23px]"><a href="course-details.html"
-                                    class="hover:text-edpurple">Financial Analyst Training & Investing Course</a></h5>
-
-                            <!-- course stats -->
-                            <div class="flex flex-wrap items-center gap-x-[30px] gap-y-[10px]">
-                                <div class="flex items-center gap-[8px] text-[14px] text-edgray">
-                                    <span class="icon"><img src="/assets/img/icon/user-group.svg" alt="icon"></span>
-                                    <span class="txt">169 Students</span>
-                                </div>
-
-                                <div class="flex items-center gap-[8px] text-[14px] text-edgray">
-                                    <span class="icon"><img src="/assets/img/icon/lesson.svg" alt="icon"></span>
-                                    <span class="txt">12 Lesson</span>
-                                </div>
-                            </div>
-
-                            <!-- course footer -->
-                            <div
-                                class="flex flex-wrap gap-x-[20px] gap-y-[15px] justify-between items-center border-t border-[#E5E5E5] pt-[24px] mt-[24px]">
-                                <!-- course author -->
-                                <div class="flex items-center gap-[8px]">
-                                    <img src="/assets/img/user.png" alt="Course Author Image"
-                                        class="w-[34px] aspect-square object-cover">
-                                    <a href="teacher-details.html" class="hover:text-edpurple">Jane Cooper</a>
-                                </div>
-
-                                <!-- course rating -->
-                                <div class="flex gap-[6px]">
-                                    <span class="text-[#F8CB1E]"><i class="fa-solid fa-star"></i></span>
-                                    <span class="text-[#F8CB1E]"><i class="fa-solid fa-star"></i></span>
-                                    <span class="text-[#F8CB1E]"><i class="fa-solid fa-star"></i></span>
-                                    <span class="text-[#F8CB1E]"><i class="fa-solid fa-star"></i></span>
-                                    <span class="text-[#808080]"><i class="fa-solid fa-star"></i></span>
-                                </div>
-                            </div>
+                            <h5
+                                class="font-semibold text-[20px] text-edblue mb-[15px] group-hover:text-edpurple transition-colors duration-300">
+                                LPG Cylinder Refills</h5>
+                            <p class="text-edgray text-[16px]">Convenient and reliable LPG cylinder refill services to
+                                ensure you never run out of gas for your home or business.</p>
+                            <a href="/services/refills"
+                                class="inline-flex items-center gap-[8px] font-medium text-edpurple mt-[20px] hover:text-edblue transition-colors duration-300">Learn
+                                More <i class="fa-solid fa-arrow-right-long"></i></a>
                         </div>
 
-                        <!-- single course card -->
                         <div
-                            class="ed-2-single-course mix personal-skill border border-[#e5e5e5] rounded-[10px] p-[20px] group">
-                            <!-- course image  -->
-                            <div class="relative overflow-hidden rounded-[10px] mb-[24px]">
-                                <img src="/assets/img/course-2.jpg" alt="Course Image"
-                                    class="aspect-[330/223] w-full object-cover group-hover:scale-110">
-                                <span
-                                    class="absolute bg-edyellow px-[10px] h-[33px] flex gap-[8px] items-center top-[16px] left-[16px] rounded-[6px]">
-                                    <span class="icon"><img src="/assets/img/icon/clock.svg" alt="icon"></span>
-                                    <span class="txt">8h 30m</span>
-                                </span>
+                            class="border border-[#e5e5e5] rounded-[10px] p-[30px] group hover:shadow-lg transition-shadow duration-300">
+                            <div class="mb-[20px]">
+                                <img src="https://via.placeholder.com/80x80" alt="LPG Cylinder Delivery"
+                                    class="w-[80px] h-[80px] object-contain">
                             </div>
-
-                            <!-- course infos -->
-                            <div class="flex justify-between items-center mb-[16px]">
-                                <span
-                                    class="inline-flex items-center justify-center border border-[#e5e5e5] px-[10px] h-[33px] rounded-[6px] font-medium text-[#808080] text-[14px]">Expert</span>
-                                <span class="text-edpurple font-semibold text-[20px]">$59.00</span>
-                            </div>
-
-                            <!-- course title -->
-                            <h5 class="font-semibold text-[20px] text-edblue mb-[23px]"><a href="course-details.html"
-                                    class="hover:text-edpurple">Financial Analyst Training & Investing Course</a></h5>
-
-                            <!-- course stats -->
-                            <div class="flex flex-wrap items-center gap-x-[30px] gap-y-[10px]">
-                                <div class="flex items-center gap-[8px] text-[14px] text-edgray">
-                                    <span class="icon"><img src="/assets/img/icon/user-group.svg" alt="icon"></span>
-                                    <span class="txt">169 Students</span>
-                                </div>
-
-                                <div class="flex items-center gap-[8px] text-[14px] text-edgray">
-                                    <span class="icon"><img src="/assets/img/icon/lesson.svg" alt="icon"></span>
-                                    <span class="txt">12 Lesson</span>
-                                </div>
-                            </div>
-
-                            <!-- course footer -->
-                            <div
-                                class="flex flex-wrap gap-x-[20px] gap-y-[15px] justify-between items-center border-t border-[#E5E5E5] pt-[24px] mt-[24px]">
-                                <!-- course author -->
-                                <div class="flex items-center gap-[8px]">
-                                    <img src="/assets/img/user.png" alt="Course Author Image"
-                                        class="w-[34px] aspect-square object-cover">
-                                    <a href="teacher-details.html" class="hover:text-edpurple">Jane Cooper</a>
-                                </div>
-
-                                <!-- course rating -->
-                                <div class="flex gap-[6px]">
-                                    <span class="text-[#F8CB1E]"><i class="fa-solid fa-star"></i></span>
-                                    <span class="text-[#F8CB1E]"><i class="fa-solid fa-star"></i></span>
-                                    <span class="text-[#F8CB1E]"><i class="fa-solid fa-star"></i></span>
-                                    <span class="text-[#F8CB1E]"><i class="fa-solid fa-star"></i></span>
-                                    <span class="text-[#808080]"><i class="fa-solid fa-star"></i></span>
-                                </div>
-                            </div>
+                            <h5
+                                class="font-semibold text-[20px] text-edblue mb-[15px] group-hover:text-edpurple transition-colors duration-300">
+                                LPG Cylinder Delivery</h5>
+                            <p class="text-edgray text-[16px]">Fast and efficient delivery of LPG cylinders right to
+                                your doorstep, saving you time and effort.</p>
+                            <a href="/services/delivery"
+                                class="inline-flex items-center gap-[8px] font-medium text-edpurple mt-[20px] hover:text-edblue transition-colors duration-300">Learn
+                                More <i class="fa-solid fa-arrow-right-long"></i></a>
                         </div>
 
-                        <!-- single course card -->
                         <div
-                            class="ed-2-single-course mix personal-skill border border-[#e5e5e5] rounded-[10px] p-[20px] group">
-                            <!-- course image  -->
-                            <div class="relative overflow-hidden rounded-[10px] mb-[24px]">
-                                <img src="/assets/img/course-3.jpg" alt="Course Image"
-                                    class="aspect-[330/223] w-full object-cover group-hover:scale-110">
-                                <span
-                                    class="absolute bg-edyellow px-[10px] h-[33px] flex gap-[8px] items-center top-[16px] left-[16px] rounded-[6px]">
-                                    <span class="icon"><img src="/assets/img/icon/clock.svg" alt="icon"></span>
-                                    <span class="txt">8h 30m</span>
-                                </span>
+                            class="border border-[#e5e5e5] rounded-[10px] p-[30px] group hover:shadow-lg transition-shadow duration-300">
+                            <div class="mb-[20px]">
+                                <img src="https://via.placeholder.com/80x80" alt="LPG Installation Services"
+                                    class="w-[80px] h-[80px] object-contain">
                             </div>
-
-                            <!-- course infos -->
-                            <div class="flex justify-between items-center mb-[16px]">
-                                <span
-                                    class="inline-flex items-center justify-center border border-[#e5e5e5] px-[10px] h-[33px] rounded-[6px] font-medium text-[#808080] text-[14px]">Expert</span>
-                                <span class="text-edpurple font-semibold text-[20px]">$59.00</span>
-                            </div>
-
-                            <!-- course title -->
-                            <h5 class="font-semibold text-[20px] text-edblue mb-[23px]"><a href="course-details.html"
-                                    class="hover:text-edpurple">Financial Analyst Training & Investing Course</a></h5>
-
-                            <!-- course stats -->
-                            <div class="flex flex-wrap items-center gap-x-[30px] gap-y-[10px]">
-                                <div class="flex items-center gap-[8px] text-[14px] text-edgray">
-                                    <span class="icon"><img src="/assets/img/icon/user-group.svg" alt="icon"></span>
-                                    <span class="txt">169 Students</span>
-                                </div>
-
-                                <div class="flex items-center gap-[8px] text-[14px] text-edgray">
-                                    <span class="icon"><img src="/assets/img/icon/lesson.svg" alt="icon"></span>
-                                    <span class="txt">12 Lesson</span>
-                                </div>
-                            </div>
-
-                            <!-- course footer -->
-                            <div
-                                class="flex flex-wrap gap-x-[20px] gap-y-[15px] justify-between items-center border-t border-[#E5E5E5] pt-[24px] mt-[24px]">
-                                <!-- course author -->
-                                <div class="flex items-center gap-[8px]">
-                                    <img src="/assets/img/user.png" alt="Course Author Image"
-                                        class="w-[34px] aspect-square object-cover">
-                                    <a href="teacher-details.html" class="hover:text-edpurple">Jane Cooper</a>
-                                </div>
-
-                                <!-- course rating -->
-                                <div class="flex gap-[6px]">
-                                    <span class="text-[#F8CB1E]"><i class="fa-solid fa-star"></i></span>
-                                    <span class="text-[#F8CB1E]"><i class="fa-solid fa-star"></i></span>
-                                    <span class="text-[#F8CB1E]"><i class="fa-solid fa-star"></i></span>
-                                    <span class="text-[#F8CB1E]"><i class="fa-solid fa-star"></i></span>
-                                    <span class="text-[#808080]"><i class="fa-solid fa-star"></i></span>
-                                </div>
-                            </div>
+                            <h5
+                                class="font-semibold text-[20px] text-edblue mb-[15px] group-hover:text-edpurple transition-colors duration-300">
+                                LPG Installation Services</h5>
+                            <p class="text-edgray text-[16px]">Professional and safe installation of LPG cylinders and
+                                related equipment for residential and commercial use.</p>
+                            <a href="/services/installation"
+                                class="inline-flex items-center gap-[8px] font-medium text-edpurple mt-[20px] hover:text-edblue transition-colors duration-300">Learn
+                                More <i class="fa-solid fa-arrow-right-long"></i></a>
                         </div>
 
-                        <!-- single course card -->
                         <div
-                            class="ed-2-single-course mix personal-skill border border-[#e5e5e5] rounded-[10px] p-[20px] group">
-                            <!-- course image  -->
-                            <div class="relative overflow-hidden rounded-[10px] mb-[24px]">
-                                <img src="/assets/img/course-4.jpg" alt="Course Image"
-                                    class="aspect-[330/223] w-full object-cover group-hover:scale-110">
-                                <span
-                                    class="absolute bg-edyellow px-[10px] h-[33px] flex gap-[8px] items-center top-[16px] left-[16px] rounded-[6px]">
-                                    <span class="icon"><img src="/assets/img/icon/clock.svg" alt="icon"></span>
-                                    <span class="txt">8h 30m</span>
-                                </span>
+                            class="border border-[#e5e5e5] rounded-[10px] p-[30px] group hover:shadow-lg transition-shadow duration-300">
+                            <div class="mb-[20px]">
+                                <img src="https://via.placeholder.com/80x80" alt="LPG Equipment & Accessories"
+                                    class="w-[80px] h-[80px] object-contain">
                             </div>
-
-                            <!-- course infos -->
-                            <div class="flex justify-between items-center mb-[16px]">
-                                <span
-                                    class="inline-flex items-center justify-center border border-[#e5e5e5] px-[10px] h-[33px] rounded-[6px] font-medium text-[#808080] text-[14px]">Expert</span>
-                                <span class="text-edpurple font-semibold text-[20px]">$59.00</span>
-                            </div>
-
-                            <!-- course title -->
-                            <h5 class="font-semibold text-[20px] text-edblue mb-[23px]"><a href="course-details.html"
-                                    class="hover:text-edpurple">Financial Analyst Training & Investing Course</a></h5>
-
-                            <!-- course stats -->
-                            <div class="flex flex-wrap items-center gap-x-[30px] gap-y-[10px]">
-                                <div class="flex items-center gap-[8px] text-[14px] text-edgray">
-                                    <span class="icon"><img src="/assets/img/icon/user-group.svg" alt="icon"></span>
-                                    <span class="txt">169 Students</span>
-                                </div>
-
-                                <div class="flex items-center gap-[8px] text-[14px] text-edgray">
-                                    <span class="icon"><img src="/assets/img/icon/lesson.svg" alt="icon"></span>
-                                    <span class="txt">12 Lesson</span>
-                                </div>
-                            </div>
-
-                            <!-- course footer -->
-                            <div
-                                class="flex flex-wrap gap-x-[20px] gap-y-[15px] justify-between items-center border-t border-[#E5E5E5] pt-[24px] mt-[24px]">
-                                <!-- course author -->
-                                <div class="flex items-center gap-[8px]">
-                                    <img src="/assets/img/user.png" alt="Course Author Image"
-                                        class="w-[34px] aspect-square object-cover">
-                                    <a href="teacher-details.html" class="hover:text-edpurple">Jane Cooper</a>
-                                </div>
-
-                                <!-- course rating -->
-                                <div class="flex gap-[6px]">
-                                    <span class="text-[#F8CB1E]"><i class="fa-solid fa-star"></i></span>
-                                    <span class="text-[#F8CB1E]"><i class="fa-solid fa-star"></i></span>
-                                    <span class="text-[#F8CB1E]"><i class="fa-solid fa-star"></i></span>
-                                    <span class="text-[#F8CB1E]"><i class="fa-solid fa-star"></i></span>
-                                    <span class="text-[#808080]"><i class="fa-solid fa-star"></i></span>
-                                </div>
-                            </div>
+                            <h5
+                                class="font-semibold text-[20px] text-edblue mb-[15px] group-hover:text-edpurple transition-colors duration-300">
+                                LPG Equipment & Accessories</h5>
+                            <p class="text-edgray text-[16px]">Wide range of high-quality LPG equipment and accessories,
+                                including regulators, hoses, and burners.</p>
+                            <a href="/services/equipment"
+                                class="inline-flex items-center gap-[8px] font-medium text-edpurple mt-[20px] hover:text-edblue transition-colors duration-300">Learn
+                                More <i class="fa-solid fa-arrow-right-long"></i></a>
                         </div>
 
-                        <!-- single course card -->
                         <div
-                            class="ed-2-single-course mix personal-skill border border-[#e5e5e5] rounded-[10px] p-[20px] group">
-                            <!-- course image  -->
-                            <div class="relative overflow-hidden rounded-[10px] mb-[24px]">
-                                <img src="/assets/img/course-5.jpg" alt="Course Image"
-                                    class="aspect-[330/223] w-full object-cover group-hover:scale-110">
-                                <span
-                                    class="absolute bg-edyellow px-[10px] h-[33px] flex gap-[8px] items-center top-[16px] left-[16px] rounded-[6px]">
-                                    <span class="icon"><img src="/assets/img/icon/clock.svg" alt="icon"></span>
-                                    <span class="txt">8h 30m</span>
-                                </span>
+                            class="border border-[#e5e5e5] rounded-[10px] p-[30px] group hover:shadow-lg transition-shadow duration-300">
+                            <div class="mb-[20px]">
+                                <img src="https://via.placeholder.com/80x80" alt="Safety Inspections & Maintenance"
+                                    class="w-[80px] h-[80px] object-contain">
                             </div>
-
-                            <!-- course infos -->
-                            <div class="flex justify-between items-center mb-[16px]">
-                                <span
-                                    class="inline-flex items-center justify-center border border-[#e5e5e5] px-[10px] h-[33px] rounded-[6px] font-medium text-[#808080] text-[14px]">Expert</span>
-                                <span class="text-edpurple font-semibold text-[20px]">$59.00</span>
-                            </div>
-
-                            <!-- course title -->
-                            <h5 class="font-semibold text-[20px] text-edblue mb-[23px]"><a href="course-details.html"
-                                    class="hover:text-edpurple">Financial Analyst Training & Investing Course</a></h5>
-
-                            <!-- course stats -->
-                            <div class="flex flex-wrap items-center gap-x-[30px] gap-y-[10px]">
-                                <div class="flex items-center gap-[8px] text-[14px] text-edgray">
-                                    <span class="icon"><img src="/assets/img/icon/user-group.svg" alt="icon"></span>
-                                    <span class="txt">169 Students</span>
-                                </div>
-
-                                <div class="flex items-center gap-[8px] text-[14px] text-edgray">
-                                    <span class="icon"><img src="/assets/img/icon/lesson.svg" alt="icon"></span>
-                                    <span class="txt">12 Lesson</span>
-                                </div>
-                            </div>
-
-                            <!-- course footer -->
-                            <div
-                                class="flex flex-wrap gap-x-[20px] gap-y-[15px] justify-between items-center border-t border-[#E5E5E5] pt-[24px] mt-[24px]">
-                                <!-- course author -->
-                                <div class="flex items-center gap-[8px]">
-                                    <img src="/assets/img/user.png" alt="Course Author Image"
-                                        class="w-[34px] aspect-square object-cover">
-                                    <a href="teacher-details.html" class="hover:text-edpurple">Jane Cooper</a>
-                                </div>
-
-                                <!-- course rating -->
-                                <div class="flex gap-[6px]">
-                                    <span class="text-[#F8CB1E]"><i class="fa-solid fa-star"></i></span>
-                                    <span class="text-[#F8CB1E]"><i class="fa-solid fa-star"></i></span>
-                                    <span class="text-[#F8CB1E]"><i class="fa-solid fa-star"></i></span>
-                                    <span class="text-[#F8CB1E]"><i class="fa-solid fa-star"></i></span>
-                                    <span class="text-[#808080]"><i class="fa-solid fa-star"></i></span>
-                                </div>
-                            </div>
+                            <h5
+                                class="font-semibold text-[20px] text-edblue mb-[15px] group-hover:text-edpurple transition-colors duration-300">
+                                Safety Inspections & Maintenance</h5>
+                            <p class="text-edgray text-[16px]">Professional safety inspections and maintenance services
+                                to ensure the safe and efficient use of your LPG systems.</p>
+                            <a href="/services/safety"
+                                class="inline-flex items-center gap-[8px] font-medium text-edpurple mt-[20px] hover:text-edblue transition-colors duration-300">Learn
+                                More <i class="fa-solid fa-arrow-right-long"></i></a>
                         </div>
 
-                        <!-- single course card -->
                         <div
-                            class="ed-2-single-course mix personal-skill border border-[#e5e5e5] rounded-[10px] p-[20px] group">
-                            <!-- course image  -->
-                            <div class="relative overflow-hidden rounded-[10px] mb-[24px]">
-                                <img src="/assets/img/course-1.jpg" alt="Course Image"
-                                    class="aspect-[330/223] w-full object-cover group-hover:scale-110">
-                                <span
-                                    class="absolute bg-edyellow px-[10px] h-[33px] flex gap-[8px] items-center top-[16px] left-[16px] rounded-[6px]">
-                                    <span class="icon"><img src="/assets/img/icon/clock.svg" alt="icon"></span>
-                                    <span class="txt">8h 30m</span>
-                                </span>
+                            class="border border-[#e5e5e5] rounded-[10px] p-[30px] group hover:shadow-lg transition-shadow duration-300">
+                            <div class="mb-[20px]">
+                                <img src="https://via.placeholder.com/80x80" alt="Commercial LPG Solutions"
+                                    class="w-[80px] h-[80px] object-contain">
                             </div>
-
-                            <!-- course infos -->
-                            <div class="flex justify-between items-center mb-[16px]">
-                                <span
-                                    class="inline-flex items-center justify-center border border-[#e5e5e5] px-[10px] h-[33px] rounded-[6px] font-medium text-[#808080] text-[14px]">Expert</span>
-                                <span class="text-edpurple font-semibold text-[20px]">$59.00</span>
-                            </div>
-
-                            <!-- course title -->
-                            <h5 class="font-semibold text-[20px] text-edblue mb-[23px]"><a href="course-details.html"
-                                    class="hover:text-edpurple">Financial Analyst Training & Investing Course</a></h5>
-
-                            <!-- course stats -->
-                            <div class="flex flex-wrap items-center gap-x-[30px] gap-y-[10px]">
-                                <div class="flex items-center gap-[8px] text-[14px] text-edgray">
-                                    <span class="icon"><img src="/assets/img/icon/user-group.svg" alt="icon"></span>
-                                    <span class="txt">169 Students</span>
-                                </div>
-
-                                <div class="flex items-center gap-[8px] text-[14px] text-edgray">
-                                    <span class="icon"><img src="/assets/img/icon/lesson.svg" alt="icon"></span>
-                                    <span class="txt">12 Lesson</span>
-                                </div>
-                            </div>
-
-                            <!-- course footer -->
-                            <div
-                                class="flex flex-wrap gap-x-[20px] gap-y-[15px] justify-between items-center border-t border-[#E5E5E5] pt-[24px] mt-[24px]">
-                                <!-- course author -->
-                                <div class="flex items-center gap-[8px]">
-                                    <img src="/assets/img/user.png" alt="Course Author Image"
-                                        class="w-[34px] aspect-square object-cover">
-                                    <a href="teacher-details.html" class="hover:text-edpurple">Jane Cooper</a>
-                                </div>
-
-                                <!-- course rating -->
-                                <div class="flex gap-[6px]">
-                                    <span class="text-[#F8CB1E]"><i class="fa-solid fa-star"></i></span>
-                                    <span class="text-[#F8CB1E]"><i class="fa-solid fa-star"></i></span>
-                                    <span class="text-[#F8CB1E]"><i class="fa-solid fa-star"></i></span>
-                                    <span class="text-[#F8CB1E]"><i class="fa-solid fa-star"></i></span>
-                                    <span class="text-[#808080]"><i class="fa-solid fa-star"></i></span>
-                                </div>
-                            </div>
+                            <h5
+                                class="font-semibold text-[20px] text-edblue mb-[15px] group-hover:text-edpurple transition-colors duration-300">
+                                Commercial LPG Solutions</h5>
+                            <p class="text-edgray text-[16px]">Tailored LPG solutions for businesses, including bulk
+                                supply, installation, and maintenance services.</p>
+                            <a href="/services/commercial"
+                                class="inline-flex items-center gap-[8px] font-medium text-edpurple mt-[20px] hover:text-edblue transition-colors duration-300">Learn
+                                More <i class="fa-solid fa-arrow-right-long"></i></a>
                         </div>
                     </div>
 
-                    <!-- pagination -->
-                    <div class="flex items-center gap-[20px] pt-[60px] justify-center text-[16px]">
-                        <a href="#" class="hover:text-edpurple"><i class="fa-solid fa-arrow-left-long"></i></a>
-                        <div class="ed-pagination flex gap-[10px] items-center">
-                            <a href="#"
-                                class="border border-[#d9d9d9] rounded-full w-[50px] h-[50px] flex items-center justify-center text-etBlack hover:bg-edpurple hover:border-edpurple hover:text-white active">01</a>
-                            <a href="#"
-                                class="border border-[#d9d9d9] rounded-full w-[50px] h-[50px] flex items-center justify-center text-etBlack hover:bg-edpurple hover:border-edpurple hover:text-white">02</a>
-                            <a href="#"
-                                class="border border-[#d9d9d9] rounded-full w-[50px] h-[50px] flex items-center justify-center text-etBlack hover:bg-edpurple hover:border-edpurple hover:text-white">03</a>
-                        </div>
-                        <a href="#" class="hover:text-edpurple"><i class="fa-solid fa-arrow-right-long"></i></a>
-                    </div>
                 </div>
             </div>
-            <!-- COURSE GRID SECTION END -->
+
+
         </main>
     </div>
 </template>
